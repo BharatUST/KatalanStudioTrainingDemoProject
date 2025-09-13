@@ -27,7 +27,7 @@ WebUI.setEncryptedText(findTestObject('SwagLabs/Login Page/Password'), GlobalVar
 
 WebUI.click(findTestObject('SwagLabs/Login Page/Login'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 
