@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HRM-ManualModeDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2d159f8-4c04-4a5d-a1b4-42b86ef86e57</testCaseGuid>
+</TestCaseEntity>

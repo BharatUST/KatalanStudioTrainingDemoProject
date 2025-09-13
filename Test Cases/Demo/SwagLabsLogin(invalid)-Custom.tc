@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SwagLabsLogin(invalid)-Custom</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4f28327c-2dfa-4200-b591-6cadf1f4aca8</testCaseGuid>
+</TestCaseEntity>
