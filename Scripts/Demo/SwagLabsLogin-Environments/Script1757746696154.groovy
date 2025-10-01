@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.Url)
+WebUI.navigateToUrl(GlobalVariable.SwagLabs_Url)
 
-WebUI.setText(findTestObject('SwagLabs/Login Page/Username'), GlobalVariable.Username)
+WebUI.setText(findTestObject('SwagLabs/Login Page/Username'), GlobalVariable.SwagLabs_Username)
 
-WebUI.setEncryptedText(findTestObject('SwagLabs/Login Page/Password'), GlobalVariable.Password)
+WebUI.setEncryptedText(findTestObject('SwagLabs/Login Page/Password'), GlobalVariable.SwagLabs_Password)
 
 WebUI.click(findTestObject('SwagLabs/Login Page/Login'))
 

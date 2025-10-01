@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Git5</name>
+   <name>ParaBank-Registration-Custom</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a861ceb1-cb24-458e-98b7-c4b654aabfe7</testCaseGuid>
+   <testCaseGuid>f92b25d8-22a0-444e-b7b1-65d09a62c6e9</testCaseGuid>
 </TestCaseEntity>

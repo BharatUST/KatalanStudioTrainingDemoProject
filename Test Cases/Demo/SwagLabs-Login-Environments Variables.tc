@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SwagLabs-Login-Environments Variables</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b4d83ba4-2026-4d04-909b-fc8cefe3fff0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>21740145-3457-47a5-9d14-9554dd8c01de</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/SwagLabs-Login</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>21740145-3457-47a5-9d14-9554dd8c01de</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>863dea03-a56c-4cc5-9b71-608632fc5e5b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>21740145-3457-47a5-9d14-9554dd8c01de</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>f00f28fb-47e3-4fae-9073-e1b03212e187</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>863dea03-a56c-4cc5-9b71-608632fc5e5b</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f00f28fb-47e3-4fae-9073-e1b03212e187</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

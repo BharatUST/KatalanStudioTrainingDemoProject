@@ -17,7 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'swagLabs.SwagLabsLogin.login'(GlobalVariable.UsernameParaBank, GlobalVariable.PasswordParaBank)
+WebUI.openBrowser('')
 
-CustomKeywords.'swagLabs.SwagLabsLogin.closeBrowser'()
+WebUI.navigateToUrl(GlobalVariable.SwagLabs_Url)
 
+//WebUI.setText(findTestObject('SwagLabs/Login Page/Username'), Username)
+//
+//WebUI.setEncryptedText(findTestObject('SwagLabs/Login Page/Password'), Password)
+//
+//WebUI.click(findTestObject('SwagLabs/Login Page/Login'))
+//
+//WebUI.delay(1)
+//
+//WebUI.closeBrowser()
+for (def rowNum=1; rowNum<= findTestData("ParaBank-Login").getRowNumbers(); rowNum++)
+{
+
+WebUI.setText(findTestObject('SwagLabs/Login Page/Username'), findTestData("SwagLabs-Login").getValue(1,rowNum))
+
+WebUI.setEncryptedText(findTestObject('SwagLabs/Login Page/Password'), findTestData("SwagLabs-Login").getValue(2,rowNum))
+
+WebUI.click(findTestObject('SwagLabs/Login Page/Login'))
+}
+WebUI.delay(1)
+WebUI.closeBrowser()

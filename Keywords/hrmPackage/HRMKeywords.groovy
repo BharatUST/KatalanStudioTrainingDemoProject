@@ -27,7 +27,7 @@ public class HRMKeywords {
 	def login(String username, String password) {
 
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl(GlobalVariable.Url)
+		WebUI.navigateToUrl(GlobalVariable.UrlParaBank)
 
 		WebUI.setText(findTestObject('Object Repository/HRM/Login Page/username'), username)
 		WebUI.setEncryptedText(findTestObject('Object Repository/HRM/Login Page/Password'), password)

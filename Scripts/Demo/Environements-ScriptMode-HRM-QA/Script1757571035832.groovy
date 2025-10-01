@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.Url)
+WebUI.navigateToUrl(GlobalVariable.HRM_Url)
 
-WebUI.setText(findTestObject('Object Repository/HRM/Login Page/username'), GlobalVariable.USERNAME)
+WebUI.setText(findTestObject('Object Repository/HRM/Login Page/username'), GlobalVariable.HRM_Username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/HRM/Login Page/Password'), GlobalVariable.PASSWORD)
+WebUI.setEncryptedText(findTestObject('Object Repository/HRM/Login Page/Password'), GlobalVariable.HRM_Password)
 
 Thread.sleep(1000)
 

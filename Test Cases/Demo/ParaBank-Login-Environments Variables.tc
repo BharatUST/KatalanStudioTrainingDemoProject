@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ParaBank-Login-Environments Variables</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4721ecbd-6116-4592-9d39-758d8facb24c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5879bac5-9259-4202-964d-0378c8efb027</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/ParaBank-Login</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5879bac5-9259-4202-964d-0378c8efb027</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>bfef48c4-47e7-491f-8bbd-6b0726c163b3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5879bac5-9259-4202-964d-0378c8efb027</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>04b656e5-172d-41c8-a272-cd8ce5267b0b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bfef48c4-47e7-491f-8bbd-6b0726c163b3</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04b656e5-172d-41c8-a272-cd8ce5267b0b</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

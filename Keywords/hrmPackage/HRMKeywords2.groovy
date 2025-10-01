@@ -33,7 +33,7 @@ public class HRMKeywords2 {
 
 	//	@Keyword
 	//	def openDefaultUrl() {
-	//		openUrl(GlobalVariable.Url)
+	//		openUrl(GlobalVariable.UrlParaBank)
 	//	}
 
 
@@ -42,7 +42,7 @@ public class HRMKeywords2 {
 	def login(String username, String password) {
 
 		//		WebUI.openBrowser('')
-		//		WebUI.navigateToUrl(GlobalVariable.Url)
+		//		WebUI.navigateToUrl(GlobalVariable.UrlParaBank)
 
 		WebUI.setText(findTestObject('Object Repository/HRM/Login Page/username'), username)
 		WebUI.setEncryptedText(findTestObject('Object Repository/HRM/Login Page/Password'), password)

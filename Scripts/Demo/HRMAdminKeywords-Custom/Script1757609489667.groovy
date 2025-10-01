@@ -21,7 +21,7 @@ CustomKeywords.'hrmPackage.HRMAdminKeywords.login'(GlobalVariable.USERNAME, Glob
 
 CustomKeywords.'hrmPackage.HRMAdminKeywords.admin'()
 
-CustomKeywords.'hrmPackage.HRMAdminKeywords.username'('')
+CustomKeywords.'hrmPackage.HRMAdminKeywords.username'(GlobalVariable.USERNAME)
 
 CustomKeywords.'hrmPackage.HRMAdminKeywords.search'()
 
