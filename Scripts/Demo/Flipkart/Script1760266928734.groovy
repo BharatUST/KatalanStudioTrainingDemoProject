@@ -19,15 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.SwagLabs_Url)
+WebUI.navigateToUrl(GlobalVariable.Flipkart_Url)
 
-WebUI.setText(findTestObject('SwagLabs/Login Page/Username'), GlobalVariable.SwagLabs_Username)
+WebUI.setText(findTestObject('Flipkart/Checkout/Search'), 'i phone 7')
 
-WebUI.setEncryptedText(findTestObject('SwagLabs/Login Page/Password'), GlobalVariable.SwagLabs_Password)
+WebUI.sendKeys(findTestObject('Flipkart/Checkout/Search'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('SwagLabs/Login Page/Login'))
-
-WebUI.delay(1)
-
-not_run: WebUI.closeBrowser()
+WebUI.verifyTextPresent('Currently unavailable1', false)
 
