@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ParaBank-Registration-Custom</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f92b25d8-22a0-444e-b7b1-65d09a62c6e9</testCaseGuid>
+</TestCaseEntity>

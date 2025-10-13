@@ -25,5 +25,7 @@ WebUI.setText(findTestObject('UST Square/Login Page/usernmae'), '169419@ust.com'
 
 WebUI.click(findTestObject('UST Square/Login Page/Next'))
 
-WebUI.click(findTestObject('UST Square/Login Page/Feed'))
+not_run: WebUI.click(findTestObject('UST Square/Login Page/Feed'))
+
+WebUI.closeBrowser()
 

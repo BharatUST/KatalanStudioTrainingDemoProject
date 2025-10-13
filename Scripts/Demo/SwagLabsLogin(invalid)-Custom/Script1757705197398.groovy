@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'swagLabs.SwagLabsLogin.login'(GlobalVariable.Username, GlobalVariable.Password)
+CustomKeywords.'swagLabs.SwagLabsLogin.login'(GlobalVariable.UsernameParaBank, GlobalVariable.PasswordParaBank)
 
 CustomKeywords.'swagLabs.SwagLabsLogin.closeBrowser'()
 

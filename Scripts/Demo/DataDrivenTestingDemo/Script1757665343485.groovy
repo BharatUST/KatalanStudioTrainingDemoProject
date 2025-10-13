@@ -21,13 +21,13 @@ WebUI.openBrowser('https://www.google.com/')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.setText(findTestObject('HRM/Login Page/username'), username)
+WebUI.setText(findTestObject('HRM/Login Page/username'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('HRM/Login Page/Password'), Password)
+WebUI.setEncryptedText(findTestObject('HRM/Login Page/Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
 WebUI.click(findTestObject('HRM/Login Page/Login'))
 
-WebUI.waitForPageLoad(50000)
+not_run: WebUI.waitForPageLoad(1000)
 
 not_run: WebUI.closeBrowser()
 

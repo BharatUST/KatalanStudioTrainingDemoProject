@@ -28,7 +28,7 @@ public class SwagLabsLogin {
 	def login(String username, String password) {
 
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl(GlobalVariable.Url)
+		WebUI.navigateToUrl(GlobalVariable.SwagLabs_Url)
 
 		WebUI.setText(findTestObject('Object Repository/SwagLabs/Login Page/Username'), username)
 		WebUI.setEncryptedText(findTestObject('Object Repository/SwagLabs/Login Page/Password'), password)
