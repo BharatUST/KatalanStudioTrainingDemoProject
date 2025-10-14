@@ -50,13 +50,14 @@ not_run: CustomKeywords.'paraBank.ParaBankRegistration.UserDetails'(1, 2)
 //    WebUI.setEncryptedText(findTestObject('ParaBank/Registration/Password'), findTestData('ParaBank-Registration').getValue(10, rowNum))
 //
 //    WebUI.setEncryptedText(findTestObject('ParaBank/Registration/Confirm'), findTestData('ParaBank-Registration').getValue(11, rowNum))
-
 // Load the Excel data file
 def testData = findTestData('ParaBank-Registration')
 
 for (int rowNum = 1; rowNum <= testData.getRowNumbers(); rowNum++) {
     // Read variables from Excel
     String FirstName = testData.getValue('FirstName', rowNum)
+
+    println('ParaUser')
 
     String LastName = testData.getValue('LastName', rowNum)
 
@@ -81,19 +82,10 @@ for (int rowNum = 1; rowNum <= testData.getRowNumbers(); rowNum++) {
     WebUI.delay(1)
 
     CustomKeywords.'paraBank.ParaBankRegistration.UserDetails'(FirstName, LastName, Address, City, State, ZipCode, Phone, 
-        SSN, Username, Password, Confirm)
-
-    WebUI.click(findTestObject('ParaBank/Registration/Register Finally'))
-
-    WebUI.delay(1)
-
-    WebUI.click(findTestObject('ParaBank/Registration/Logout'))
-
-    WebUI.delay(1)
-
-    WebUI.click(findTestObject('ParaBank/Registration/Register'))
-
-    WebUI.delay(1)
+        SSN, Username, Password, Confirm) 
+	//	WebUI.click(findTestObject('ParaBank/Registration/Register Finally'))
+    //	WebUI.click(findTestObject('ParaBank/Registration/Logout'))
+    //    WebUI.click(findTestObject('ParaBank/Registration/Register'))
 }
 
 CustomKeywords.'paraBank.ParaBankRegistration.closeBrowser'()
