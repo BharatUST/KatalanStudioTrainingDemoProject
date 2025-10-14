@@ -51,5 +51,10 @@ try {
 } catch (Exception e) {
     KeywordUtil.markError("❌ Text verification FAILED: 'Currently unavailable' not found. Error - " + e.getMessage())
 	WebUI.takeScreenshot('Screenshots/iPhone7Check4.png')
+	
+        //repeating 'try' block again	
+		WebUI.verifyTextPresent('Currently unavailable1', false)
+		KeywordUtil.logInfo("✅ Text verification PASSED: 'Currently unavailable' found on page.")
+		WebUI.takeScreenshot('Screenshots/iPhone7Check3.png')
 
 }

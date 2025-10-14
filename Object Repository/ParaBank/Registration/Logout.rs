@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='Log Out']</value>
+         <value>//*[@id=&quot;leftPanel&quot;]/ul/li[8]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
