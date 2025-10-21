@@ -39,7 +39,7 @@ if (isUnavailable) {
 	WebUI.takeScreenshot('Screenshots/iPhone7Check1.png')
 	
 } else {
-	KeywordUtil.markWarning("⚠️ Expected text 'i phone 7' was NOT found. Product might be available or text changed.")
+	KeywordUtil.markWarning("Product might be available or text changed.")
 	WebUI.takeScreenshot('Screenshots/iPhone7Check2.png')
 }
 

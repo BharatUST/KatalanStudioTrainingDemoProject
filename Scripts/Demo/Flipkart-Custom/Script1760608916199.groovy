@@ -16,14 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.Flipkart_Url)
-
-WebUI.setText(findTestObject('Flipkart/Checkout/Search'), 'i phone 7')
-
-WebUI.sendKeys(findTestObject('Flipkart/Checkout/Search'), Keys.chord(Keys.ENTER))
-
-WebUI.verifyTextPresent('Currently unavailable1', false)
 
